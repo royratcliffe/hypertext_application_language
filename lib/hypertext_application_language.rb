@@ -1,0 +1,8 @@
+require 'hypertext_application_language/version'
+
+require 'hypertext_application_language/namespace_manager'
+require 'hypertext_application_language/link'
+require 'hypertext_application_language/representation'
+
+require 'hypertext_application_language/hash_representation_parser'
+require 'hypertext_application_language/hash_representation_renderer'

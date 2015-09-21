@@ -1,0 +1,6 @@
+--no-private
+--protected
+--main README.md
+-
+MIT-LICENSE.txt
+ChangeLog.md

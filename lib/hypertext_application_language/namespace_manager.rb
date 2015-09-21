@@ -9,8 +9,9 @@ module HypertextApplicationLanguage
 
     extend Forwardable
 
-    # @return [Hash<String, String>] Answers a hash of relative references by
-    # their name.
+    # @!method namespaces
+    #   @return [Hash<String, String>] Answers a hash of relative references by
+    #   their name.
     def_delegator :@ref_for_name, :dup, :namespaces
 
     def initialize

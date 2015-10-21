@@ -42,7 +42,7 @@ module HypertextApplicationLanguage
     # @!group Links
 
     def link
-      link_for(Representation::SELF_REL)
+      link_for(Link::SELF_REL)
     end
 
     def link_for(href_or_rel)

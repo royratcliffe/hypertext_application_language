@@ -2,5 +2,5 @@
 # parsing and rendering between external representations and internal Ruby
 # classes.
 module HypertextApplicationLanguage
-  VERSION = '0.0.0'.freeze
+  VERSION = '0.0.1'.freeze
 end
